@@ -1,10 +1,3 @@
-<!--
- * @Author: laidz laidz@yelinked.com
- * @Date: 2025-03-06 14:18:02
- * @LastEditors: laidz laidz@yelinked.com
- * @LastEditTime: 2025-03-06 14:18:24
- * @Description:
--->
 <template>
   <div class="person">
     <h2>姓名：{{name}}</h2>
@@ -22,8 +15,8 @@
 <!--
 setup 与 Options API 的关系
 
-- Vue2 的配置（`data`、`methos`......）中可以访问到 `setup`中的属性、方法。
-- 但在`setup`中不能访问到`Vue2`的配置（`data`、`methos`......）。
+- Vue2 的配置（`data`、`methods`......）中可以访问到 `setup`中的属性、方法。
+- 但在`setup`中不能访问到`Vue2`的配置（`data`、`methods`......）。
 - 如果与`Vue2`冲突，则`setup`优先。
  -->
 <script lang="ts">
